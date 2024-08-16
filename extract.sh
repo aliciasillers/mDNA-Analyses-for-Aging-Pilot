@@ -9,7 +9,7 @@
 #SBATCH --error=extract.err # File to which STDERR will be written
 #SBATCH --mail-type=END,FAIL # Type of email notification- BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=asillers@ucdavis.edu # Email to which notifications will be$
-#SBATCH --time=6-00:00:00
+#SBATCH --time=3-00:00:00
 #SBATCH --array=1-10
 
 set -e                                                                                  # Error if a single command fails
