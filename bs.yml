@@ -5,3 +5,6 @@ channels:
 dependencies:
  - bismark
  - bowtie2
+ - r-tidyverse
+ - bioconductor-methylkit=1.26
+ - bioconductor-genomation
